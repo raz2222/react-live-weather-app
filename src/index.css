@@ -95,3 +95,8 @@ main {
   text-align: center;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
+
+h1 {
+  color: #fff;
+  text-align: center;
+}

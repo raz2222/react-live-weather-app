@@ -59,12 +59,14 @@ function App() {
           <input
             type="text"
             className="search-bar"
-            placeholder="Search..."
+            placeholder="Just type any loaction in the world..."
             onChange={(e) => setQuery(e.target.value)}
             value={query}
             onKeyPress={search}
           />
         </div>
+        <h1>Live Weather App</h1>
+        <br></br>
         {typeof weather.main != "undefined" ? (
           <div>
             <div className="location-box">
